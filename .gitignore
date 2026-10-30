@@ -1,0 +1,89 @@
+
+# ==================================
+# PYTHON / STREAMLIT
+# ==================================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python cache and testing
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# ==================================
+# SENSITIVE FILES / CREDENTIALS
+# ==================================
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+service-account*.json
+
+# ==================================
+# DATASETS
+# ==================================
+# Keep datasets out of Git unless intentionally included
+# *.csv
+# *.xlsx
+# *.xls
+# *.parquet
+
+# ==================================
+# JAVA / HADOOP
+# ==================================
+*.class
+
+# Build artifacts
+build/
+classes/
+target/
+bin/
+out/
+
+# Keep Hadoop output folders
+# output/
+# output_run*/
+
+# Logs
+*.log
+
+# ==================================
+# IDE / EDITORS
+# ==================================
+.vscode/
+.idea/
+*.iml
+.project
+.classpath
+.settings/
+
+# ==================================
+# OPERATING SYSTEM
+# ==================================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==================================
+# TEMPORARY FILES
+# ==================================
+*.tmp
+*.bak
+*.swp
+*.orig
